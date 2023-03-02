@@ -1,2 +1,2 @@
 # randenum
-POC package to shuffle enumerations
+POC LuaLaTeX package to shuffle enumerations

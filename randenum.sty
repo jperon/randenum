@@ -1,0 +1,6 @@
+\directlua{randenum = require"randenum"}
+\newenvironment{randenum}{%
+\directlua{randenum.begin_buffenv()}
+}{%
+\directlua{randenum.end_buffenv()}
+}
